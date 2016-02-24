@@ -1,6 +1,6 @@
 # linux_suspend_laptopNotwork
 
-#test for hibernate
+##test for hibernate
 sudo pm-hibernate
 
 #if work edit the config file:
