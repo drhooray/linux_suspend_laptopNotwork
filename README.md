@@ -1,15 +1,15 @@
 # linux_suspend_laptopNotwork
 
 @test for hibernate
-sudo pm-hibernate
+$sudo pm-hibernate
 
 @if work edit the config file:
 
-sudo -i
+$sudo -i
 
-cd /var/lib/polkit-1/localauthority/50-local.d/
+$cd /var/lib/polkit-1/localauthority/50-local.d/
 
-gedit com.ubuntu.enable-hibernate.pkla
+$gedit com.ubuntu.enable-hibernate.pkla
 
 ==edit it==
 
@@ -26,9 +26,8 @@ gedit com.ubuntu.enable-hibernate.pkla
 
 @then edit logind.conf
 
-cd /etc/systemd/
-
-sudo gedit logind.conf
+$cd /etc/systemd/
+$sudo gedit logind.conf
 
 @change #HandLidSwitch=suspend to hibernate
 
