@@ -25,8 +25,11 @@ gedit com.ubuntu.enable-hibernate.pkla
 ==edit end==
 
 @then edit logind.conf
+
 cd /etc/systemd/
+
 sudo gedit logind.conf
+
 @change #HandLidSwitch=suspend to hibernate
 
 @restart your laptop 
