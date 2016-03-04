@@ -4,6 +4,7 @@
 sudo pm-hibernate
 
 @if work edit the config file:
+
 sudo -i
 
 cd /var/lib/polkit-1/localauthority/50-local.d/
